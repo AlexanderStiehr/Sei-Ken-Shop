@@ -8,7 +8,7 @@ const NavbarComponent = () =>{
             <NavLink className="aLink" to='/products/bukis'>Bukis (Armas)</NavLink>
             <NavLink className="aLink" to='/products/ropa'>Ropa</NavLink>
             <NavLink className="aLink" to='/products/ubicacion'>Ubicación</NavLink>
-            <NavLink  className='aLink'to='/cart'><CartWidget counter={18}/></NavLink>
+            <NavLink className="aLink" to='/cart'><CartWidget counter={18}/></NavLink>
         </nav>
     )
 }

@@ -5,7 +5,7 @@ const productos = [
         stock: 10,
         price: 50,
         description: "Bokken de madera de eucalipto",
-        img: "../pictures/bokken.jpg",
+        img: "./public/pictures/bokken.jpg",
         category: "bukis",
     },
     {
@@ -14,7 +14,7 @@ const productos = [
         stock: 18,
         price: 150,
         description: "Jo de madera de roble",
-        img: "../pictures/jo.jpg",
+        img: "./public/pictures/jo.jpg",
         category: "bukis",
     },
     {
@@ -23,7 +23,7 @@ const productos = [
         stock: 50,
         price: 5000,
         description: "Tanto de madera de pino",
-        img: "../pictures/tanto.jpg",
+        img: "./public/pictures/tanto.jpg",
         category: "bukis",
     },
     {
@@ -32,7 +32,7 @@ const productos = [
         stock: 550,
         price: 55000,
         description: "Keikogi compuesto por chaqueta y pantalon de algodón",
-        img: "../pictures/keikogi.png",
+        img: "./public/pictures/keikogi.png",
         category: "ropa",
     },
     {
@@ -41,7 +41,7 @@ const productos = [
         stock: 550,
         price: 55000,
         description: "Hakama de algodón",
-        img: "../pictures/hakama.jpg",
+        img: "./public/pictures/hakama.jpg",
         category: "ropa",
     },
 ];
